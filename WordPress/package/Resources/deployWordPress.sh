@@ -18,8 +18,8 @@ sudo apt-get -y -q install php5-mysql
 sudo apt-get -y -q install mysql-client
  
 # Install Wordpress
-wget http://wordpress.org/latest.zip
-sudo unzip -q latest.zip -d /var/www/html/
+wget http://wordpress.org/wordpress-5.0.zip
+sudo unzip -q wordpress-5.0.zip -d /var/www/html/
 sudo chown -R www-data.www-data /var/www/html/wordpress
 sudo chmod -R 755 /var/www/html/wordpress
 sudo mkdir -p /var/www/html/wordpress/wp-content/uploads
