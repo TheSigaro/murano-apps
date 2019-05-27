@@ -20,7 +20,7 @@ sudo apt-get update
 
 sudo apt-get -y install zabbix-agent
 
-sudo pip install zabbixapi
+sudo pip install zabbix-api
 
 sudo pip install py-zabbix
 
